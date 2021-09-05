@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+  color: #2b2a27;
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #2b2a27;
+}
+.top-wrapper{
+  height: 100vh;
+  background-image:url(recipe.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+}
+
+.main-wrapper{
+  text-align: center;
+}
+.gnav{
+  display: flex;
+}
+.lesson-icon{
+ 
+  margin-bottom: 60px;
+
+}
+.lesson-icon li{
+  width: calc(100%/3);
+}
+.lesson-icon img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+.btn-wrapper{
+  text-align: center;
+}
+.btn{
+  display: inline-block;
+  border: solid 1px #2b2a27;
+  font-size: 0.875rem;
+  padding: 20px 60px;
+}
+footer{
+  margin-top:95px;
+  text-align: center;
+  font-size: 0.75rem;
+  padding-bottom:20px
+}
+.sns{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.sns li{
+  margin:0 10px;
+}
